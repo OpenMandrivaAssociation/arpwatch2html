@@ -8,6 +8,7 @@ URL:		http://sisms.no-ip.com/software/arpwatch2html/
 Source0:	arpwatch2html.pl.bz2
 Requires:	arpwatch
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 arpwatch2html is a script to convert the arpwatch flat-file
