@@ -1,14 +1,14 @@
 Summary:	Convert the arpwatch flat-file into html
 Name:		arpwatch2html
 Version:	0.9
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Base
 URL:		http://sisms.no-ip.com/software/arpwatch2html/
 Source0:	arpwatch2html.pl.bz2
 Requires:	arpwatch
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 arpwatch2html is a script to convert the arpwatch flat-file
