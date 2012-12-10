@@ -38,3 +38,40 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/%{name}
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.9-7mdv2011.0
++ Revision: 616605
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 0.9-6mdv2010.0
++ Revision: 423958
+- rebuild
+
+* Sun Jul 20 2008 Oden Eriksson <oeriksson@mandriva.com> 0.9-5mdv2009.0
++ Revision: 238955
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Sep 09 2007 Oden Eriksson <oeriksson@mandriva.com> 0.9-4mdv2008.0
++ Revision: 83866
+- rebuild
+
+
+* Fri Dec 22 2006 Oden Eriksson <oeriksson@mandriva.com> 0.9-3mdv2007.0
++ Revision: 101572
+- misc spec file fixes
+- Import arpwatch2html
+
+* Sun Dec 25 2005 Oden Eriksson <oeriksson@mandriva.com> 0.9-2mdk
+- rebuild
+
+* Sat Nov 20 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 0.9-1mdk
+- initial mandrake package
+
