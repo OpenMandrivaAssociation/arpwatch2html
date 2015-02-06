@@ -1,7 +1,7 @@
 Summary:	Convert the arpwatch flat-file into html
 Name:		arpwatch2html
 Version:	0.9
-Release:	%mkrel 7
+Release:	8
 License:	GPL
 Group:		System/Base
 URL:		http://sisms.no-ip.com/software/arpwatch2html/
