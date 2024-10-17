@@ -4,7 +4,7 @@ Version:	0.9
 Release:	8
 License:	GPL
 Group:		System/Base
-URL:		http://sisms.no-ip.com/software/arpwatch2html/
+URL:		https://sisms.no-ip.com/software/arpwatch2html/
 Source0:	arpwatch2html.pl.bz2
 Requires:	arpwatch
 BuildArch:	noarch
